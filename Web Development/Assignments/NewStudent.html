@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>New Student</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8pYiISFTPMiH4LfJ3tMD0qnl24QLZuh-MTw&usqp=CAU">
+  </head>
+
+  <body style="background-color: gray;">
+    <div style="justify-content: center; text-align: center;">
+    <h1>Welcome New student</h1>
+    <p><em>Please fill in the form below</em></p>
+  </body>
+
+
+    <form >
+      <label for="name">First Name:</label><br>
+      <input type="text" id="fname" value="" name="fname" placeholder="Enter first name" required>
+<p></p>
+      <label for="name">Middle Name:</label><br>
+      <input type="text" id="mname" value="" name="mname" placeholder="Enter middle name">
+ <p></p>
+      <label for="name">Last Name:</label><br>
+      <input type="text" id="mname" value="" name="lname" placeholder="Enter last name" required>
+ <p></p>
+      <label for="Date-of-Birth">Date of Birth:</label>
+      <input type="date" id="date" value="date" name="date" required>
+<p></p>
+      <legend>
+      <label for="Gender">Gender:</label><br>
+      <label for="Gender">Male</label>
+      <input type="radio" name="male" id="male">
+      <label for="Gender">Female</label>
+      <input type="radio" name="female" id="female">
+      </legend>
+<p></p>
+      <label for="Address">Address:</label>
+      <address><input type="text" name="address" id="address"></address>
+<p></p>
+      <label for="Telephone">Telephone:</label><br>
+      <input type="tel" id="tel" name="tel" required>
+<p></p>
+      <label for="Email">Email Address:</label><br>
+      <input type="email" id="email" name="email" required>
+<P></P>
+      <label for="Course">Course</label><br>
+        <select required>
+          <option value=void>Select a course</option>
+          <option value="Computer science">Computer science</option>
+          <option value="Nursing">Nursing</option>
+          <option value="Law">Law</option>
+          <option value="International Relations">International Relations</option>
+          <option value="Bio-med">Bio-med</option>
+        </select>
+<p></p>
+        <input type="reset" name="reset" id="reset">
+        <input type="submit" name="submit" id="submit">
+    </form>
+  </div>
+</html>
