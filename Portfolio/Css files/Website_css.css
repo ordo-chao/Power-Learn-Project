@@ -1,0 +1,45 @@
+/* Home page css */
+.header{
+  background-color: rgb(217, 217, 217); height: 150px; border-radius: 0% 100% 100% 0% / 0% 46% 54% 100% ;
+}
+.header h1
+{
+  font-size: 50px;
+}
+.header a
+{
+  color: red;
+  position: absolute;
+  top: 90px;
+}
+
+.body
+{
+  display: flex; flex-wrap: wrap;
+}
+
+.welcome_section
+{
+  background-color: rgb(217, 217, 217); position: relative; top: 20px;  width: 350px; height: 250px;
+}
+.welcome_section div
+{
+  background-color: white; position: relative; width: 150px; height: 250px; left: 200px; top: -160px; border-radius: 100% 0% 0% 100% / 51% 0% 100% 49% ;
+}
+.image_section
+{
+  background-color: rgb(217, 217, 217); position: relative; top: 100px; width: 200px; height: 70px; left: -150px;
+}
+.image_section img
+{
+  position: absolute; top: -80px; width: 200px; left: 200px; border-radius: 60px;
+}
+.footer
+{
+  position: fixed; right: 0px; bottom: 0px;
+}
+.footer img
+{
+  width: 25px;
+  height: 25px;
+}
