@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>TODO-LIST</title>
+    <meta charset="UTF-8" name="veiwpoint" content="width:device-width , initial-scale:1.0">
+    <link rel="icon" href="./Icons/icons8-to-do-list-64.png">
+    <link rel="stylesheet" href="./Todo-List.css">
+  </head>
+
+  <body>
+    <div id="outer_div">
+
+      <div id="input_to_do">
+       <input type="text" id="text_input" placeholder="Input Text">
+
+        <input type="datetime-local" id="date_time">
+
+        <button id="submit_button"
+        >Submit Task</button><br>
+
+        <button id="tasks_clear_button">Clear all tasks</button>
+
+        <button id="completed_tasks_clear_button">Clear all completed tasks</button>
+      </div>
+
+      <div id="tasks_outer_div">
+        <h1>Tasks</h1>
+        <div id="tasks_inner_div">
+          
+        </div>
+      </div>
+
+      <div id="completed_outer_div">
+        <h1>Completed</h1>
+        <div id="completed_inner_div">
+  
+        </div>
+      </div>
+
+    </div>
+
+    <script src="./Todo-List.js"></script>
+  </body>
+</html>

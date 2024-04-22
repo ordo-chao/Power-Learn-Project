@@ -1,0 +1,118 @@
+body
+{
+  display: flex;
+  justify-content: center;
+}
+#outer_div
+{
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: 6%;
+  right: 6%;
+}
+#input_to_do
+{
+  background-color: rgb(143, 143, 144);
+  position: relative;
+  left: 22%;
+  width: 60%;
+  height: 40%;
+  top: 5%;
+  max-width: 500px;
+  min-width: 150px;
+}
+#text_input
+{
+  width: 99%;
+  height: 10%;
+  outline-style:none;
+  outline:auto;
+  color: rgb(0, 0, 0);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: rgb(255, 255, 255);
+}
+#text_input::placeholder
+{
+  text-align: center;
+  font-size: 15px;
+}
+#date_time
+{
+  cursor: pointer;
+}
+#submit_button
+{
+  width: 25%;
+  height: 10%;
+  transition: 1.5s;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 10px;
+}
+#tasks_outer_div
+{
+  position: relative;
+  bottom: 10%;
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  height: 65%;
+  border-top-left-radius: 50px;
+  border-right: dotted;
+}
+#completed_outer_div
+{
+  position: relative;
+  bottom: 80%;
+  background-color: rgb(255, 255, 255);
+  left: 45%;
+  width: 55%;
+  height: 65%;
+  border-top-right-radius: 50px;
+  border-left: dotted;
+}
+h1
+{
+  display: flex;
+  justify-content: center;
+}
+#tasks_inner_div
+{
+  background-color: rgb(143, 143, 144);
+  height: 90%;
+  border-bottom-left-radius: 100px;
+  border-right: dotted;
+}
+#completed_inner_div
+{
+  background-color: rgb(143, 143, 144);
+  height: 90%;
+  border-bottom-right-radius: 100px;
+  border-left: dotted;
+}
+#completed_inner_div button
+{
+  display: none;
+}
+li
+{
+  list-style:decimal-leading-zero;
+  font-style: italic;
+  font-size: 15px;
+}
+#complete_button
+{
+  cursor: pointer;
+  color: green;
+}
+#remove_button
+{
+  cursor: pointer;
+  color: red;
+}
+#completed_tasks_clear_button
+{
+  margin: 20px;
+}
