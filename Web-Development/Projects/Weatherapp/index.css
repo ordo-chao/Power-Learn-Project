@@ -1,0 +1,43 @@
+#inputForm
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cityInput
+{
+  width: 25%;
+  height: 50px;
+  font-size: 120%;
+  text-align: center;
+}
+#cityInput::placeholder
+{
+  font-size: 120%;
+  text-align: center;
+}
+#submit
+{
+  height: 30px;
+  margin-left: 2%;
+}
+#weatherDisplay
+{
+  background-color: aqua;
+  position: relative;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+#weatherDisplay h1 , p 
+{
+  text-align: center;
+}
+#weatherDisplay p
+{
+  font-size: 120%;
+  margin-top: 2%;
+}
+#weatherDisplay h1
+{
+  font-size: 250%;
+}
